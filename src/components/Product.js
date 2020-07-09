@@ -2,7 +2,7 @@ import React from 'react'
 import Shoesjson from './../Shoes.json'
 import { Link } from 'react-router-dom'
 
-import Appcss from './../App.css'
+import  './../App.css'
 
 const Product = () => {
 
@@ -16,7 +16,7 @@ const Product = () => {
                     const shoe = Shoesjson[keyName];
                     return (<Link key={keyName} className="Link" to={`/product/${keyName}`}>
                         <h2>{shoe.name}</h2>
-                        <img src={shoe.img} height={150} />
+                        <img src={shoe.img} height={150} alt="this is main images"/>
                     </Link>
 
                     )
