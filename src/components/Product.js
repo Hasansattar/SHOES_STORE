@@ -16,7 +16,7 @@ const Product = () => {
                     const shoe = Shoesjson[keyName];
                     return (<Link key={keyName} className="Link" to={`/product/${keyName}`}>
                         <h2>{shoe.name}</h2>
-                        <img src={shoe.img} height={150} alt="this is main images"/>
+                        <img src={shoe.img} height={150} alt="this_is_main_images"/>
                     </Link>
 
                     )

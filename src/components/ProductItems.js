@@ -19,7 +19,7 @@ const ProductItems = () => {
             <h1>welcome to Product Items</h1>
             <div className="Link"  >
                 <h2>{shoe.name}</h2>
-                <img src={shoe.img} height={500} alt="this is image items"/>
+                <img src={shoe.img} height={500} alt="this_is_items"/>
             </div>
         </div>
     )
