@@ -10,7 +10,7 @@ const Product = () => {
     //  console.log(Object.keys(Shoesjson))
     return (
         <div>
-            <h1>welcome to Product</h1>
+            <h1>WELCOME TO PRODUCT</h1>
             <div className="productcontainer">
                 {Object.keys(Shoesjson).map(keyName => {
                     const shoe = Shoesjson[keyName];

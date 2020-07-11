@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Routes/>
-     <h1>hasan</h1>
+      
     </div>
   );
 }

@@ -16,7 +16,7 @@ const ProductItems = () => {
         </h2>)
     return (
         <div>
-            <h1>welcome to Product Items</h1>
+            <h1>WELCOME TO PRODUCT ITEMS</h1>
             <div className="Link"  >
                 <h2>{shoe.name}</h2>
                 <img src={shoe.img} height={500} alt="this_is_items"/>
