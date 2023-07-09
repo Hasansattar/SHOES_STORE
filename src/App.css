@@ -4,15 +4,22 @@ body{
 .productcontainer{
   display: flex;
   flex-wrap: wrap;
+  margin: 20px;
+  
   
 }
+ 
 
 .productcontainer >  .Link{
   text-align: center;
   width: 300px;
    box-shadow: 0 0 10px #463636;
    margin: 10px;
+   transform: scale(.8);
+   transition: all .3s ease-in-out;
 }
 .productcontainer > .Link:hover{
-  background-color: beige;
+  background-color: rgb(202, 202, 193);
+  transform: scale(.9);
+   
 }
